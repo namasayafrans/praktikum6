@@ -1,9 +1,8 @@
 # Praktikum-6
-# Lab-6
 
-Nama : Yoga Pratama
+# Nama : Frans Putra Sinaa
 
-NIM : 312210042
+# NIM : 312210046
 
 Kelas : TI.22.A1
 
