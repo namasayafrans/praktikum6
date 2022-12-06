@@ -1,6 +1,6 @@
 # Praktikum-6
 
-# Nama : Frans Putra Sinaa
+# Nama : Frans Putra Sinaga
 
 # NIM : 312210046
 
