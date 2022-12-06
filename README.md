@@ -1,4 +1,4 @@
-# Praktikum-6
+# Praktikum6
 
 # Nama : Frans Putra Sinaga
 
