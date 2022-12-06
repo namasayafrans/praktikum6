@@ -4,7 +4,7 @@
 
 # NIM : 312210046
 
-#Kelas : TI.22.A1
+# Kelas : TI.22.A1
 
 ## DAFTAR ISI <br>
 | No | Description | Link |
