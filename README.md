@@ -55,7 +55,7 @@ Buat program sederhana dengan mengaplikasikan penggunaan fungsi yang akan menamp
 - Fungsi hapus(nama) untuk menghapus data berdasarkan nama.
 - Fungsi ubah(nama) untuk mengubah data berdasarkan nama.
 - Buat Flowchart dan Penjelasan Programnya pada README.md.
--  Commit dan push repository ke github.
+- Commit dan push repository ke github.
 
 ### Rumus :
     from os import system
@@ -190,13 +190,6 @@ Buat program sederhana dengan mengaplikasikan penggunaan fungsi yang akan menamp
 
     menu()
     
-### Program :
-![Screenshot_20221206_120904](https://user-images.githubusercontent.com/115678171/205825701-ba7f4aeb-fbf6-4ae7-9f03-1a2a943701ac.png)
-
-![Screenshot_20221206_120929](https://user-images.githubusercontent.com/115678171/205825735-2558345d-b435-46d9-a354-f8aded8f5f25.png)
-
-![Screenshot_20221206_120955](https://user-images.githubusercontent.com/115678171/205825749-67a72927-60e5-413e-b99e-adac381779e8.png)
-
 ### Hasil Run :
 
 - Menambah data
