@@ -201,19 +201,19 @@ Buat program sederhana dengan mengaplikasikan penggunaan fungsi yang akan menamp
 
 - Menambah data
 
-![Screenshot_20221206_121429](https://user-images.githubusercontent.com/115678171/205828682-6c80e802-7beb-44c5-8b4f-f9874ae28b6f.png)
+![1](https://user-images.githubusercontent.com/115770839/206169826-df55c000-63d1-4609-b2fc-7c9c789ec582.png)
 
 - Menampilkan data
 
-![Screenshot_20221206_121546](https://user-images.githubusercontent.com/115678171/205828827-2b1ff1c5-03ba-4182-b5e6-2c1726095174.png)
+![2](https://user-images.githubusercontent.com/115770839/206170221-b86af5ca-42f6-4e60-9372-2428a96bb692.png)
 
 - Mengubah data 
 
-![Screenshot_20221206_121613](https://user-images.githubusercontent.com/115678171/205828957-707ad619-2968-4e3d-a729-2b0c8ced8dfd.png)
+![3](https://user-images.githubusercontent.com/115770839/206170280-69e76428-5846-40b2-a8d3-6241f4c42115.png)
 
 - Menghapus data dan selesai
 
-![Screenshot_20221206_124655](https://user-images.githubusercontent.com/115678171/205827205-b746e767-6f7b-432d-bae1-b03e950334a4.png)
+![4,5](https://user-images.githubusercontent.com/115770839/206170410-0d1d316a-4e43-40ef-970c-b80e05965309.png)
 
 
 ## Penjelasan Program :
