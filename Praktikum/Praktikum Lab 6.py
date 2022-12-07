@@ -1,4 +1,5 @@
 from os import system
+
 s_nama = []
 s_nim = []
 s_tugas = []
@@ -6,12 +7,10 @@ s_uts = []
 s_uas = []
 s_akhir = []
 
-
 def judul():
     print('==================================')
     print('|     Daftar Nilai Mahasiswa     |')
     print('==================================')
-
 
 def menu():
     system('cls')
@@ -46,16 +45,13 @@ def tambah():
     judul()
     print('Tambah Data'.center(40))
     print('==================================')
-    nama = input('Nama     : ')
+    nama = input('Nama             : ')
     s_nama.append(nama)
-    nim = input('NIM       : ')
+
+    nim = input('NIM              : ')
     s_nim.append(nim)
 
-    system('cls')
-    judul()
-    print('Tambah Data'.center(40))
-    print('==================================')
-    tugas = float(input('Nilai Tugas    : '))
+    tugas = float(input('Nilai Tugas      : '))
     s_tugas.append(tugas)
 
     uts = float(input('Nilai UTS        : '))
@@ -76,7 +72,7 @@ def tampilkan():
     judul()
 
     for i in range(len(s_nim)):
-        print('%d. Nama         : %s' % (i + 0, s_nama[i]))
+        print('%d.  Nama         : %s' % (i + 0, s_nama[i]))
         print('    NIM          : %s' % s_nim[i])
         print('    Nilai Tugas  : %.2f' % s_tugas[i])
         print('    UTS          : %.2f' % s_uts[i])
@@ -94,11 +90,26 @@ def ubah():
         if (i > len(s_nim[i])):
             print('Nomor Urut Salah')
         else:
-            namabaru = input('Nama      : ')
+            namabaru = input('Nama             : ')
             s_nama[i] = namabaru
+
+            nimbaru = input('NIM              : ')
+            s_nim[i] = nimbaru
+
+            tugasbaru = float(input('Nilai Tugas      : '))
+            s_tugas[i] = tugasbaru
+
+            utsbaru= float(input('Nilai UTS        : '))
+            s_uts[i] = utsbaru
+
+            uasbaru= float(input('Nilai UAS        : '))
+            s_uas[i] = uasbaru
+
+            totalbaru = tugasbaru * 0.30 + utsbaru * 0.35 + uasbaru * 0.35
+            s_akhir[i]= totalbaru
+
     kembali = input('Kembali Tekan [Enter]')
     menu()
-
 
 def hapus():
     system('cls')
@@ -123,10 +134,10 @@ def hapus():
     kembali = input('Kembali Tekan [Enter]')
     menu()
 
-
 def selesai():
     system('cls')
     menu()
 
-
 menu()
+
+

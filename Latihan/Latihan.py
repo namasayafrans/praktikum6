@@ -1,7 +1,7 @@
 # Latihan
 print("======================")
-print("Nama : Yoga Pratama")
-print("NIM  : 312210042")
+print("Nama : Frans Putra Sinaga ")
+print("NIM  : 312210046")
 print("======================")
 
 import math
@@ -23,4 +23,4 @@ print(c(10, 50))
 def d(s):
     return "".join(set(s))
     d = lambda s: "".join(set(s))
-print(d("Yoga"))
+print(d("frans"))
