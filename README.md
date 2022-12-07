@@ -17,35 +17,32 @@
 Ubahlah kode di bawah ini menjadi fungsi menggunakan lambda
    
 ```
-import math
+
+print("======================")
+print("Nama : Frans Putra Sinaga ")
+print("NIM  : 312210046")
+print("======================")
+
 def a(x):
     return x**2
-    a = lambda x: x**2, a
 print(a(2))
 
 def b(x, y):
-    return math.sqrt(x*2 + y*2)
-    b = lambda x, y: x*2 + y*2, b
+    return (x*2 + y*2)
 print(b(2, 4))
 
 def c(*args):
     return sum(args) / len(args)
-    c = lambda*args: sum(args) / len(args)
 print(c(10, 50))
 
-def d(s):
-    return "".join(set(s))
-    d = lambda s: "".join(set(s))
-print(d("Yoga"))
-````
-    
-### Program :
+nama = lambda name : print(f"Hello {name}")
+nama("frans")
 
-![Screenshot_20221206_123401](https://user-images.githubusercontent.com/115678171/205825284-3aaff542-bceb-4361-b9f5-c6cac3c7e3e6.png)
+````
 
 ### Hasil Run :
 
-![Screenshot_20221206_123512](https://user-images.githubusercontent.com/115678171/205825248-869662fa-7d22-492e-b27d-322487a68449.png)
+![latihan1](https://user-images.githubusercontent.com/115770839/206205892-b11954d1-99d3-470d-918f-47cc08f3288b.png)
 
 ## Praktikum 6
 Buat program sederhana dengan mengaplikasikan penggunaan fungsi yang akan menampilkan daftar nilai mahasiswa, dengan ketentuan :
